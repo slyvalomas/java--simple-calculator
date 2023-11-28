@@ -36,7 +36,24 @@ function reset(){
     counter3.textContent=0
     document.getElementById("comment").textContent=""
 }
+// practice
+let age = Math.floor(Math.random()*150  )+1
+console.log(age)
+if (age>=21){
+console.log("your age is "+age+" years old you can join")
+}else{  
+    
+    var needAge=21-age
+    console.log("your age is "+age+" years old sorry you cant join come after "+ needAge+ " years")}
+if (age<100){
 
+    var needYears=100-age 
+    console.log("sorry you are "+age+" you are not elegible to get the car from the king you need to wait for "+ needYears +" years" )
+}else if (age ===100){
+    console.log("happy 100 years mr you are "+age+"years old you are elegible you can have the card ")
 
+}    else{
+    var moreYears = age-100;
+    console.log("your age is "+age+" years old sorry you cant get a card from the king because you get one "+ moreYears+ " years ago")}
 
 
