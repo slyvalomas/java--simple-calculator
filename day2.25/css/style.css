@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(#333,#000);
+    min-height: 100vh;
+    color: #fff;
+}
+.main{ 
+    border: 3px solid whitesmoke ;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.main__section1 , .main__section2{
+    
+    margin: 3rem 1rem;
+    font-size: 1.5rem;
+    padding: 1rem ;
+    border: 2px solid whitesmoke;
+    min-width: 100px;
+}
+.plusmin{
+    background-color: whitesmoke;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.main__plus{
+    margin-left: 0;
+    padding-left: 0;
+}
+.main__plus , .main__-{
+    height: 50px;
+    width: 150px;
+    
+}
+.container , .lastline{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    border: 1px solid whitesmoke;
+}
+.screen{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.goon{
+    padding: 1rem;
+    font-size: 1.25rem;
+
+}
+.lastline{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.number{
+    padding: 1rem;
+}
+.goon{
+    background-color: red;
+}
+.plus22{
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+}
+.div{
+    padding: 1rem;
+    border: 2px solid whitesmoke;
+}
+.div__btn{    margin: 3rem 1rem;
+    font-size: 1.5rem;
+    padding: 1rem ;
+    min-width: 100px;}
+#comment{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
