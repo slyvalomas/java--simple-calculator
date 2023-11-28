@@ -34,7 +34,7 @@ function reset(){
     counter1.textContent=0
     counter2.textContent=0
     counter3.textContent=0
-    
+    document.getElementById("comment").textContent=""
 }
 
 
