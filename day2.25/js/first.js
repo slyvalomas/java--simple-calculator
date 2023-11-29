@@ -55,5 +55,44 @@ if (age<100){
 }    else{
     var moreYears = age-100;
     console.log("your age is "+age+" years old sorry you cant get a card from the king because you get one "+ moreYears+ " years ago")}
+// card game
+let firstCard=10 // i can use Math.floor(Math.random()*10)+1 to make it real random but it makes it hard to get 21 and testing the code
+let secondCard=9 // the same here with the first one 
+let sum = firstCard +secondCard 
+let win = false
+let isAlive=true
+if (sum<=20){
+    var hib= console.log("need more to win")
+    hib
+}   else if (sum === 21){
+    console.log("you win!")
+    win = true
+}   else{
+    isAlive= false
+    console.log("you lose")
+    
+}
+console.log(win)//if its true then you did win on this game! lets make it better
+
+function check(){
+    if (win===true){
+        console.log("you acutely did win!")
+    }
+    else{
+        console.log("sorry you did never win")
+    }
+}
+check()
+function stillAlive(){
+    if  (isAlive===true){
+        console.log("you still alive")
+    }else{
+        console.log("you are dead")
+    }
+}
+stillAlive()
+//
+let message =""
+console.log(message)
 
 
